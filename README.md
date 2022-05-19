@@ -15,4 +15,4 @@ $ make clean
 > Existe um arquivo makefile, nele tem os comandos run e clean, para compilar você usa o "make" e em seguida "make run" para rodar o programa. 
 
 # Sobre a atividade:
-> O programa tem 2 grupos de threads, que respectivamente é o produtor e consumidor, que utiliza um buffer circular.
+> O programa tem 2 grupos de threads, que respectivamente é o produtor e consumidor, que utiliza um buffer circular. Produtor adiciona um valor ao buffer e consumidor retira o valor do buffer.
