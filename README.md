@@ -3,8 +3,10 @@
 Atividade de número: 6.
 
 # Como clonar o repositório:
+```bash
 $ git clone 
-$ cd infra_software_tutoria6
+$ cd main
+```
 
 # Como utilizar o programa:
 > Existe um arquivo makefile, nele tem os comandos run e clean, para compilar você usa o "make" e em seguida "make run" para rodar o programa. 
