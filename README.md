@@ -4,7 +4,7 @@ Atividade de número: 6.
 
 # Como clonar o repositório:
 ```bash
-$ git clone 
+$ git clone https://github.com/JacquelinBB/infra-sw-jbb.git
 $ cd main
 ```
 
