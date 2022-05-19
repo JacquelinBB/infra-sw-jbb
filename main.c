@@ -58,7 +58,7 @@ void *produtor(void* args){
 
                 if (buffer[t_buffer] == 0){
                         buffer[t_buffer] = 2 * x + 1;
-                        printf("Produtor %d produzindo %d na posição %d", *id_produtor, buffer[t_buffer], t_buffer);
+                        printf("Produtor %d produzindo %d na posição %d\n", *id_produtor, buffer[t_buffer], t_buffer);
                         x++;
                         t_buffer++;
                 }
@@ -81,7 +81,7 @@ void *consumidor(void* args){
                 sem_wait(&mutex);
 
                 if (buffer[t_buffer] != 0){
-                        printf("Consumidor %d consumindo %d da posição %d", *id_consumidor, buffer[t_buffer], t_buffer_c);
+                        printf("Consumidor %d consumindo %d da posição %d\n", *id_consumidor, buffer[t_buffer], t_buffer_c);
                         buffer[t_buffer] = 0;
                 }
 
