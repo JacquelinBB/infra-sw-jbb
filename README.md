@@ -6,6 +6,9 @@ Atividade de número: 6.
 ```bash
 $ git clone https://github.com/JacquelinBB/infra-sw-jbb.git
 $ cd main
+$ make
+$ make run
+$ make clean
 ```
 
 # Como utilizar o programa:
